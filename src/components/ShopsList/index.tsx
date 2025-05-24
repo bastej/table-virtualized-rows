@@ -4,6 +4,8 @@
 import type { ShopDTO } from "../../api";
 import { getAddressInfo } from "../../utils";
 
+import { LazyImage } from "../LazyImage";
+
 import "../../css/table.css";
 
 type Props = {
@@ -34,11 +36,7 @@ export const ShopsList = (props: Props) => {
               <tr key={id} className="table-tr">
                 <td className="table-td">{id}</td>
                 <td className="table-td">
-                  <img
-                    src={imageUrl}
-                    alt={`shop ${address}, ${type} image`}
-                    className="h-12 rounded"
-                  />
+                  <LazyImage src={imageUrl} alt={`shop ${address}, ${type} image`} />
                 </td>
                 <td className="table-td">{city}</td>
                 <td className="table-td">{street}</td>

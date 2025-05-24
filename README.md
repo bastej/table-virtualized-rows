@@ -4,7 +4,7 @@
 - ✅ Komponent powinien renderować tablicę w formie listy
 - ✅ Element listy powinien zawierać id, obrazek (renderowany), miasto, ulicę oraz typ.
 - Lista może być bardzo długa.
-- Załóż, że obrazy mogą dużo ważyć, być czasochłonne do załadowania.
+- ✅ Załóż, że obrazy mogą dużo ważyć, być czasochłonne do załadowania.
 
 # Wymagania:
 

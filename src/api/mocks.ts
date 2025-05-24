@@ -31,6 +31,6 @@ export const shopsAddressesMock = [
     id: "5",
     type: "FRANCHISE",
     imageUrl:
-      "https://poradnikhandlowca.com.pl/wp-content/uploads/2020/02/Tesco_Logo.svg_-10-e1635328214522.png",
+      "https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g",
   } as const,
 ];
