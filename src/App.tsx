@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./App.css";
-
 import { ShopsList } from "./components/ShopsList";
 import { fetchShopsAddresses, type ShopDTO } from "./api";
 
