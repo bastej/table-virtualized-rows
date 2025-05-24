@@ -1,8 +1,8 @@
 # Informacje:
 
 - ✅ Komponent powinien przekształcić adres: podzielić go na miasto i ulicę, ignorując kod pocztowy.
-- Komponent powinien renderować tablicę w formie listy
-- Element listy powinien zawierać id, obrazek (renderowany), miasto, ulicę oraz typ.
+- ✅ Komponent powinien renderować tablicę w formie listy
+- ✅ Element listy powinien zawierać id, obrazek (renderowany), miasto, ulicę oraz typ.
 - Lista może być bardzo długa.
 - Załóż, że obrazy mogą dużo ważyć, być czasochłonne do załadowania.
 

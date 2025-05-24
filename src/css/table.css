@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .table {
+    @apply min-w-full border;
+  }
+
+  .table-tr {
+    @apply hover:bg-gray-50 hover:cursor-pointer;
+  }
+
+  .table-th {
+    @apply text-left p-2;
+  }
+
+  .table-td {
+    @apply border-b p-2;
+  }
+}
