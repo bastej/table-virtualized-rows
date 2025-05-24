@@ -1,4 +1,4 @@
-type ShopType = "FRANCHISE" | "REGULAR";
+import type { ShopType } from "../../types";
 
 export type ShopDTO = {
   id: string;
