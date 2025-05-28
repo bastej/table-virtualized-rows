@@ -16,10 +16,28 @@ Projekt deweloperski oparty na React 19 + Vite + TypeScript, wspierany przez Tai
 
 ## 🚀 Uruchomienie projektu
 
-### 1. Instalacja zależności
+### Instalacja zależności
 
 ```bash
 npm install
+```
+
+### Uruchomienie aplikacji developerskiej
+
+```bash
+npm run dev
+```
+
+### Uruchomienie testów
+
+```bash
+npm run test
+```
+
+### Budowanie aplikacji produkcyjnej
+
+```bash
+npm run build
 ```
 
 # Informacje:
