@@ -1,0 +1,1 @@
+export { generateShopAddresses } from "./generateShopAddresses";

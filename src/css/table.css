@@ -8,7 +8,7 @@
   }
 
   .table-tr {
-    @apply hover:bg-gray-50 hover:cursor-pointer;
+    @apply hover:bg-gray-50 hover:cursor-pointer border;
   }
 
   .table-th {
@@ -16,6 +16,6 @@
   }
 
   .table-td {
-    @apply border-b p-2;
+    @apply p-2;
   }
 }
