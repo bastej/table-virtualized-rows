@@ -1,9 +1,33 @@
+# Addresses for Dogtronic 🐾
+
+Projekt deweloperski oparty na React 19 + Vite + TypeScript, wspierany przez Tailwind CSS i faker.js — służący do generowania i prezentacji fikcyjnych adresów sklepów w formacie zgodnym z wymaganiami Dogtronic.
+
+## 📦 Stos technologiczny
+
+- **React 19**
+- **Vite** – superszybki bundler
+- **TypeScript**
+- **Tailwind CSS** – utility-first CSS
+- **@faker-js/faker** – generowanie danych testowych
+- **@tanstack/react-table** – tabele
+- **@tanstack/react-virtual** – wirtualizacja list
+- **Vitest** – testy
+- **ESLint** – linting
+
+## 🚀 Uruchomienie projektu
+
+### 1. Instalacja zależności
+
+```bash
+npm install
+```
+
 # Informacje:
 
 - ✅ Komponent powinien przekształcić adres: podzielić go na miasto i ulicę, ignorując kod pocztowy.
 - ✅ Komponent powinien renderować tablicę w formie listy
 - ✅ Element listy powinien zawierać id, obrazek (renderowany), miasto, ulicę oraz typ.
-- Lista może być bardzo długa.
+- ✅ Lista może być bardzo długa.
 - ✅ Załóż, że obrazy mogą dużo ważyć, być czasochłonne do załadowania.
 
 # Wymagania:
