@@ -8,11 +8,11 @@
   }
 
   .table-tr {
-    @apply hover:bg-gray-50 hover:cursor-pointer border;
+    @apply hover:bg-gray-50 hover:cursor-pointer;
   }
 
   .table-th {
-    @apply text-left p-2;
+    @apply text-left p-3 bg-gray-100;
   }
 
   .table-td {
