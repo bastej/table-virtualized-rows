@@ -19,6 +19,16 @@ type Props = {
 export const ShopsList = (props: Props) => {
   const { shopsAddresses } = props;
 
+  const data = React.useMemo(() => {
+    return shopsAddresses.map((el) => ({
+      id: el.id,
+      image: el.imageUrl,
+      city: getAddressInfo(el.address).city,
+      street: getAddressInfo(el.address).street,
+      type: el.type,
+    }));
+  }, [shopsAddresses]);
+
   const columns = React.useMemo<Array<ColumnDef<ShopsListItem>>>(
     () => [
       { accessorKey: "id", header: TABLE_COLUMN_LABELS.id, maxSize: 50 },
@@ -41,13 +51,7 @@ export const ShopsList = (props: Props) => {
   );
 
   const table = useReactTable({
-    data: shopsAddresses.map((el) => ({
-      id: el.id,
-      image: el.imageUrl,
-      city: getAddressInfo(el.address).city,
-      street: getAddressInfo(el.address).street,
-      type: el.type,
-    })),
+    data,
     columns,
     getCoreRowModel: getCoreRowModel(),
   });
